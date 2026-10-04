@@ -1,0 +1,33 @@
+local scriptUrl = "https://raw.githubusercontent.com/boniloyzin-cloud/Pooophub_DAVI/refs/heads/main/DAVIFLING%20THING%20AND%20PEOPLE"
+local rawScript = game:HttpGet(scriptUrl)
+
+-- ១. ប្ដូរឈ្មោះ XOCU / XOCO / Seagull / Virex / Ruz គ្រប់ទម្រង់ទៅជា DAVI
+rawScript = string.gsub(rawScript, "XOCU", "DAVI")
+rawScript = string.gsub(rawScript, "xocu", "DAVI")
+rawScript = string.gsub(rawScript, "XOCOScript", "DAVI")
+rawScript = string.gsub(rawScript, "XOCO", "DAVI")
+rawScript = string.gsub(rawScript, "xoco", "DAVI")
+rawScript = string.gsub(rawScript, "SeagullHub", "DAVI")
+rawScript = string.gsub(rawScript, "Seagull", "DAVI")
+rawScript = string.gsub(rawScript, "seagull", "DAVI")
+rawScript = string.gsub(rawScript, "VIREX", "DAVI")
+rawScript = string.gsub(rawScript, "Virex", "DAVI")
+rawScript = string.gsub(rawScript, "virex", "DAVI")
+rawScript = string.gsub(rawScript, "Ruz Hub", "DAVI")
+rawScript = string.gsub(rawScript, "RuzHub", "DAVI")
+rawScript = string.gsub(rawScript, "RUZ HUB", "DAVI")
+rawScript = string.gsub(rawScript, "Ruz%-Hub", "DAVI")
+rawScript = string.gsub(rawScript, "RUZ", "DAVI")
+rawScript = string.gsub(rawScript, "Ruz", "DAVI")
+rawScript = string.gsub(rawScript, "ruz", "DAVI")
+
+-- ២. លុបពាក្យ HUB និង SCRIPT HUB ចេញទាំងស្រុង
+rawScript = string.gsub(rawScript, "SCRIPT HUB", "")
+rawScript = string.gsub(rawScript, "Script Hub", "")
+rawScript = string.gsub(rawScript, "script hub", "")
+rawScript = string.gsub(rawScript, "HUB", "")
+rawScript = string.gsub(rawScript, "Hub", "")
+rawScript = string.gsub(rawScript, "hub", "")
+
+-- ៣. ដំណើការ Script
+loadstring(rawScript)()
